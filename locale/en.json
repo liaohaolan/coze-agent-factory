@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Coze Agent Factory",
+    "description": "Creates Coze agents from a built-in multi-industry template library through the Coze OpenAPI."
+  }
+}

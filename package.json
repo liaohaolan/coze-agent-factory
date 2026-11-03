@@ -1,0 +1,24 @@
+{
+  "name": "@local/coze-agent-factory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Coze 智能体工厂：内置 24 个行业模板，调用 Coze 开放 API 一键创建智能体",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "templates.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

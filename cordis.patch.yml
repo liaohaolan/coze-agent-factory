@@ -1,0 +1,14 @@
+- insert:
+    - id: coze-agent-factory
+      name: '@local/coze-agent-factory'
+      config:
+        # Coze 开放 API 配置：
+        # token: 在 Coze 个人中心 → API 管理 → 个人访问令牌(PAT) 创建，权限勾选智能体读写
+        # spaceId: 工作空间 ID，见 Coze 工作空间页面 URL 中 workspace 参数
+        # apiBaseUrl: 国内站 https://api.coze.cn（默认）；海外站改为 https://api.coze.com
+        # 在此填写你的 Coze 访问令牌（属敏感凭据，切勿提交到公开仓库！）：
+        # Coze 个人中心 → API 管理 → 个人访问令牌(PAT)，权限勾选「Bot 管理」读写
+        token: ''
+        # 工作空间 ID：Coze 工作空间页面 URL 中 workspace 参数
+        spaceId: ''
+        apiBaseUrl: 'https://api.coze.cn'
